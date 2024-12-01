@@ -1,0 +1,37 @@
+.accordion-item {
+    border: none;
+}
+
+.accordion-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-collapse {
+    border: none;
+}
+
+
+.accordion-button {
+    font-size: 1.2rem;
+}
+
+.accordion-body {
+    font-size: 1.1rem;
+}
+
+.accordion-button {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white;
+}
