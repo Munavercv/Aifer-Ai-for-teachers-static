@@ -1,6 +1,7 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomeBanner from "./components/HomeBanner/HomeBanner";
+import WhatYouLearn from "./components/WhatYouLearn/WhatYouLearn";
 import WhyChooseAi from "./components/WhyChooseAi/WhyChooseAi";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HomeBanner />
       <WhyChooseAi />
+      <WhatYouLearn />
 
       <Footer />
     </div>
