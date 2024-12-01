@@ -1,0 +1,15 @@
+.WhyChooseAi_sec{
+    font-family: "Inter", sans-serif;
+}
+
+.check-icon{
+    text-align: center;
+    padding: 0.16rem 0.3rem;
+}
+
+.fa-check {
+    vertical-align: -.125em;
+    color: #008080;
+    font-size: 1.5rem;
+    border-radius: 0px;
+  }
