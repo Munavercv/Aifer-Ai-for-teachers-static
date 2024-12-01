@@ -1,0 +1,16 @@
+.cta-btn{
+    border-radius: 30px;
+    background-color: #008080;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px 20px 0px #00000034;
+    transition: all 500ms;
+    padding: 7px 20px;
+}
+
+.cta-btn:hover{
+    box-shadow: 8px 8px 20px 0px #0000005d;
+}
