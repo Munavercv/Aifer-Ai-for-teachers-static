@@ -5,6 +5,7 @@ import Faqs from "./components/Faqs/Faqs";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomeBanner from "./components/HomeBanner/HomeBanner";
+import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Testimonials from "./components/Testimonials/Testimonials";
 import WhatYouLearn from "./components/WhatYouLearn/WhatYouLearn";
 import WhyChooseAi from "./components/WhyChooseAi/WhyChooseAi";
@@ -17,15 +18,13 @@ function App() {
       <HomeBanner />
       <WhyChooseAi />
       <WhatYouLearn />
-
-      <Faqs />
-
+      <HowItWorks />
       <CourseDetails />
       <WhyThisCourse />
       <AdditionalBenefits />
       <Testimonials />
       <CallToAction />
-
+      <Faqs />
       <Footer />
     </div>
   );

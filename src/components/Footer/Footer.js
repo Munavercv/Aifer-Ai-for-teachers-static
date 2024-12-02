@@ -18,10 +18,10 @@ const Footer = () => {
 
                             <div className="d-flex flex-column flex-sm-row justify-content-between pt-4 mb-0 social-icons">
                                 <ul className="list-unstyled d-flex">
-                                    <li className="me-4"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li className="me-4"><a href="#"><i className="fa-brands fa-twitter"></i></a></li>
                                     <li className="me-4"><a href="#"><i className="fa-brands fa-facebook-f"></i></a></li>
-                                    <li className="me-4"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li className="me-4"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li className="me-4"><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                                    <li className="me-4"><a href="#"><i className="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
 

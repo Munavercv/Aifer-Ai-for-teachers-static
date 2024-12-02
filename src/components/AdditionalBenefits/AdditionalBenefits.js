@@ -10,7 +10,7 @@ const AdditionalBenefits = () => {
                 <h2 className='section_title text-white'>Additional Benefits</h2>
 
                 <div className='sub_heading py-2'>
-                    <h5 className='text-center'><i class="fa-solid fa-floppy-disk"></i> Session Recordings </h5>
+                    <h5 className='text-center'><i className="fa-solid fa-floppy-disk"></i> Session Recordings </h5>
                 </div>
 
                 <p className='text-center fw-light fs-5 mx-3'>Get access to all recorded sessions for two months post-completion.</p>

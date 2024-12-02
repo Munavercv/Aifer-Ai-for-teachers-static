@@ -4,8 +4,8 @@ import './Testimonials.css'
 const Testimonials = () => {
 
     const testimonials = [
-        { name: 'Anjali S', designation: 'School Teacher', quote: 'This course was a game-changer! AI tools now make my lesson planning more creative and efficient.' },
-        { name: 'Dr. Ramesh P', designation: 'College Professor', quote: 'The personalized learning insights I gained here have revolutionized my teaching approach.' }
+        { name: 'Anjali S', designation: 'School Teacher', quote: 'This course was a game-changer! AI tools now make my lesson planning more creative and efficient' },
+        { name: 'Dr. Ramesh P', designation: 'College Professor', quote: 'The personalized learning insights I gained here have revolutionized my teaching approach' }
     ]
 
     return (
