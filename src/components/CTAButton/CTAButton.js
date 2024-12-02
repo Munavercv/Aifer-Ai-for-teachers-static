@@ -1,12 +1,31 @@
-import React from 'react'
-import './CTAButton.css'
+import React, { useState } from 'react';
+import './CTAButton.css';
+import EnrollPopup from '../EnrollPopup/EnrollPopup';
 
 const CTAButton = ({ text }) => {
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handleButtonClick = () => {
+        setShowPopup(true);
+    };
+
+    const handleClosePopup = () => {
+        setShowPopup(false);
+    };
+
     return (
         <div>
-            <button className="cta-btn">{text}</button>
-        </div>
-    )
-}
+            <button className="cta-btn" onClick={handleButtonClick}>
+                {text}
+            </button>
 
-export default CTAButton
+            {showPopup && (
+                <EnrollPopup
+                    onClose={handleClosePopup}
+                />
+            )}
+        </div>
+    );
+};
+
+export default CTAButton;

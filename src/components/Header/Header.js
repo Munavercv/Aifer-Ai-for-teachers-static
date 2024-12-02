@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/aifer-logo.svg'
 import './Header.css'
+import CTAButton from '../CTAButton/CTAButton'
 
 const Header = () => {
     return (
@@ -11,7 +12,7 @@ const Header = () => {
                         <img src={logo} alt="Aifer" className="d-inline-block align-text-top brand" />
                     </a>
                     <div className='ms-auto'>
-                        <button className="join-btn">Start now</button>
+                        <CTAButton text='Join now'  />
                     </div>
                 </div>
             </nav>
