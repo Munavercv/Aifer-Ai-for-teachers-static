@@ -8,6 +8,7 @@ import HomeBanner from "./components/HomeBanner/HomeBanner";
 import HowItWorks from "./components/HowItWorks/HowItWorks";
 import Testimonials from "./components/Testimonials/Testimonials";
 import WhatYouLearn from "./components/WhatYouLearn/WhatYouLearn";
+import WhoShouldEnroll from "./components/WhoShouldEnroll/WhoShouldEnroll";
 import WhyChooseAi from "./components/WhyChooseAi/WhyChooseAi";
 import WhyThisCourse from "./components/WhyThisCourse/WhyThisCourse";
 
@@ -19,6 +20,7 @@ function App() {
       <WhyChooseAi />
       <WhatYouLearn />
       <HowItWorks />
+      <WhoShouldEnroll />
       <CourseDetails />
       <WhyThisCourse />
       <AdditionalBenefits />

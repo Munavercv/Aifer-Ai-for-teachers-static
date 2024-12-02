@@ -17,21 +17,21 @@ const HowItWorks = () => {
                         <div className="feature-icon d-inline-flex align-items-center justify-content-center fs-3 mb-3">
                             <i className="fa-solid fa-laptop"></i>
                         </div>
-                        <h3 className="fs-2">On-Demand Video Sessions</h3>
+                        <h3 className="fs-4 fw-bold">On-Demand Video Sessions</h3>
                         <p>Learn at your own pace with structured modules.</p>
                     </div>
                     <div className="feature col">
                         <div className="feature-icon d-inline-flex align-items-center justify-content-center fs-3 mb-3">
                             <i className="fa-solid fa-chalkboard-user"></i>
                         </div>
-                        <h3 className="fs-2">Live Q&A Workshops</h3>
+                        <h3 className="fs-4 fw-bold">Live Q&A Workshops</h3>
                         <p>Interact with experts, solve doubts, and refine your skills.</p>
                     </div>
                     <div className="feature col">
                         <div className="feature-icon d-inline-flex align-items-center justify-content-center fs-3 mb-3">
                             <i className="fa-solid fa-person-chalkboard"></i>
                         </div>
-                        <h3 className="fs-2">Capstone Project</h3>
+                        <h3 className="fs-4 fw-bold">Capstone Project</h3>
                         <p>Apply your learning to create real-world classroom solutions.</p>
                     </div>
                 </div>
