@@ -14,7 +14,6 @@ const CourseDetails = () => {
                         <ul className='course_details_list ms-md-3  ms-1'>
                             <li><span>Duration: </span>1 Month (Self-paced + Live Sessions)</li>
                             <li><span>Delivery Mode: </span>Hybrid (10 Hours Recorded, 3 Hours Live)</li>
-                            <li><span>Fee: </span>₹1499 - ₹1999</li>
                             <li><span>Certification: </span>Yes, upon successful completion.</li>
                         </ul>
 
