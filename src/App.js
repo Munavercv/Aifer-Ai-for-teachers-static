@@ -4,6 +4,7 @@ import Faqs from "./components/Faqs/Faqs";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomeBanner from "./components/HomeBanner/HomeBanner";
+import Testimonials from "./components/Testimonials/Testimonials";
 import WhatYouLearn from "./components/WhatYouLearn/WhatYouLearn";
 import WhyChooseAi from "./components/WhyChooseAi/WhyChooseAi";
 import WhyThisCourse from "./components/WhyThisCourse/WhyThisCourse";
@@ -21,6 +22,7 @@ function App() {
       <CourseDetails />
       <WhyThisCourse />
       <AdditionalBenefits />
+      <Testimonials />
 
       <Footer />
     </div>
