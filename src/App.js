@@ -1,3 +1,4 @@
+import CourseDetails from "./components/CourseDetails/CourseDetails";
 import Faqs from "./components/Faqs/Faqs";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -14,6 +15,8 @@ function App() {
       <WhatYouLearn />
 
       <Faqs />
+
+      <CourseDetails />
 
       <Footer />
     </div>

@@ -1,0 +1,25 @@
+.course_details_list{
+    font-family: "Inter", sans-serif;
+    color: #353535;
+}
+
+.course_details_list li span{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.course_details_list li{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+    .course_details_list li span{
+        font-size: 1.1rem;
+    }
+    
+    .course_details_list li{
+        font-size: 1rem;
+    }
+}
