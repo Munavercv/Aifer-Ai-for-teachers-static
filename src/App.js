@@ -1,4 +1,5 @@
 import AdditionalBenefits from "./components/AdditionalBenefits/AdditionalBenefits";
+import CallToAction from "./components/CallToAction/CallToAction";
 import CourseDetails from "./components/CourseDetails/CourseDetails";
 import Faqs from "./components/Faqs/Faqs";
 import Footer from "./components/Footer/Footer";
@@ -23,6 +24,7 @@ function App() {
       <WhyThisCourse />
       <AdditionalBenefits />
       <Testimonials />
+      <CallToAction />
 
       <Footer />
     </div>

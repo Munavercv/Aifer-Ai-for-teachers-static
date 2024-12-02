@@ -1,0 +1,10 @@
+.call_to_action_sec{
+    background: linear-gradient(180deg, #008080 10%, #003f3f 90%);
+}
+
+.call_to_action_sec h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
