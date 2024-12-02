@@ -1,0 +1,27 @@
+.why_this_course_list{
+    font-family: "Inter", sans-serif;
+    color: #353535;
+}
+
+.why_this_course_list dt{
+    font-size: 1.3rem;
+    font-weight: 800;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.why_this_course_list dd{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+    .why_this_course_list dt{
+        font-size: 1.1rem;
+    }
+    
+    .why_this_course_list dd{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,14 @@
+.add_benefits_sec{
+    background-color: #008080;
+    color: white;
+}
+
+.add_benefits_sec h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.add_benefits_sec .sub_heading{
+    background-color: #003f3f;
+    width: 100%;
+}
